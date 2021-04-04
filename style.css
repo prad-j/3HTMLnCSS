@@ -1,11 +1,14 @@
-h1 {
+h1, h2 {
     color: rebeccapurple;
-    font-size: 40px;
     font-family: 'Courier New';
 }
 
+h1 {
+    
+    font-size: 40px;
+    
+}
+
 h2 {
-    color: green;
     font-size: 30px;
-    font-family:'Segoe UI';
 }
