@@ -11,7 +11,7 @@ body {
 
 h1, h2 {
     color: rgb(7, 87, 11);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans';
 }
 
 h1 {
@@ -23,6 +23,7 @@ h1 {
 
 h2 {
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .main-text {
@@ -30,8 +31,15 @@ h2 {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     color: #262626;
+    margin-bottom: 20px;
 }
 
 .author-text {
     font-size: 22px;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
