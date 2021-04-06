@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -42,4 +48,21 @@ h2 {
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.blog-post {
+    background-color: #0000ff;
+    width: 75%;
+    float: left;
+}
+
+.other-posts {
+    background-color: green;
+    width: 25%;
+    float: left;
+}
+
+.author-box {
+    background-color: yellow;
+    
 }
