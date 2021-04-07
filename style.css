@@ -46,6 +46,10 @@ h3 {
 
 .author-text {
     font-size: 22px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 20px;
+    margin-bottom: 5%;
 }
 
 .container {
@@ -53,6 +57,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .blog-post {
@@ -73,6 +78,7 @@ h3 {
     /*background-color: yellow;*/
     border-top: 1px solid #808080;
     padding-top: 20px;
+    margin-bottom: 30px;
 }
 
 .other{
@@ -87,4 +93,11 @@ h3 {
 .list-link {
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
 }
