@@ -64,6 +64,7 @@ h3 {
     width: 75%;
     float: left;
     padding-right: 30px;
+    position: relative;
 }
 
 .other-posts {
@@ -104,5 +105,21 @@ h3 {
 .blog-post img {
     height: 150px;
     width: auto;
-    padding-left: 250px;
+    margin-left: 250px;
+    margin-bottom: 30px;
+}
+
+.date {
+    color: #1b93b1;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.weblink {
+    padding-bottom: 20px;
+}
+
+.blog-post a {
+    margin-bottom: 30px;
 }
