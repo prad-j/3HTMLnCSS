@@ -54,11 +54,13 @@ h2 {
     background-color: #0000ff;
     width: 75%;
     float: left;
+    padding-right: 30px;
 }
 
 .other-posts {
     background-color: green;
     width: 25%;
+    //height: 969px;
     float: left;
 }
 
