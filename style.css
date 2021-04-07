@@ -15,7 +15,7 @@ body {
     font-size: 16px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: rgb(7, 87, 11);
     font-family: 'Lucida Sans';
 }
@@ -30,6 +30,10 @@ h1 {
 h2 {
     font-size: 30px;
     margin-bottom: 10px;
+}
+
+h3 {
+    
 }
 
 .main-text {
@@ -48,23 +52,39 @@ h2 {
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 .blog-post {
-    background-color: #0000ff;
+    /*background-color: #0000ff;*/
     width: 75%;
     float: left;
     padding-right: 30px;
 }
 
 .other-posts {
-    background-color: green;
+    /*background-color: green;*/
     width: 25%;
-    //height: 969px;
+    /*height: 969px;*/
     float: left;
 }
 
 .author-box {
-    background-color: yellow;
-    
+    /*background-color: yellow;*/
+    border-top: 1px solid #808080;
+    padding-top: 20px;
+}
+
+.other{
+    margin-bottom: 10px;
+}
+
+.ullist {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.list-link {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
