@@ -47,7 +47,7 @@ h3 {
 .author-text {
     font-size: 22px;
     float: left;
-    padding-top: 40px;
+    padding-top: 30px;
     margin-left: 20px;
     margin-bottom: 7%;
 }
@@ -123,4 +123,8 @@ h3 {
 .blog-post a:link {
    //background-color: yellow;
    //padding-bottom: 30px;
+}
+
+.author-box a:link {
+    
 }
