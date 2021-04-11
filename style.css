@@ -65,6 +65,7 @@ h3 {
     float: left;
     padding-right: 30px;
     position: relative;
+    border-right: 1px solid #262626 ;
 }
 
 .other-posts {
@@ -72,6 +73,7 @@ h3 {
     width: 25%;
     /*height: 969px;*/
     float: left;
+    padding-left: 10px;
 }
 
 .author-box {
