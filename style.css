@@ -33,11 +33,11 @@ h2 {
 }
 
 h3 {
-    
+    font-size: 25px;
 }
 
 .main-text {
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     color: #262626;
@@ -60,7 +60,6 @@ h3 {
 }
 
 .blog-post {
-    /*background-color: #0000ff;*/
     width: 75%;
     float: left;
     padding-right: 30px;
@@ -69,9 +68,8 @@ h3 {
 }
 
 .other-posts {
-    /*background-color: green;*/
+    font-size: 18px;
     width: 25%;
-    /*height: 969px;*/
     float: left;
     padding-left: 10px;
 }
@@ -112,7 +110,8 @@ h3 {
 }
 
 .date {
-    color: #1b93b1;
+    font-size: 18px;
+    color: #063d04;
     position: absolute;
     top: 20px;
     right: 40px;
@@ -120,9 +119,4 @@ h3 {
 
 .weblink {
     padding-bottom: 20px;
-}
-
-.blog-post a:link {
-   //background-color: yellow;
-   //padding-bottom: 30px;
 }
